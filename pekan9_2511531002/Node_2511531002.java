@@ -17,6 +17,9 @@ public class Node_2511531002 {
 		if (right_1002 == null)
 			right_1002 = node_1002;
 	}
+	public void setData_1002(int data_1002) {
+		this.data_1002 = data_1002;
+	}
 	public Node_2511531002 getLeft_1002() {
 		return left_1002;
 	}
@@ -25,9 +28,6 @@ public class Node_2511531002 {
 	}
 	public int getData_1002() {
 		return data_1002;
-	}
-	public void setData_1002(int data_1002) {
-		this.data_1002 = data_1002;
 	}
 	
 	void printPreorder_1002(Node_2511531002 node_1002) {
