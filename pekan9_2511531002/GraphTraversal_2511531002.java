@@ -39,7 +39,7 @@ public class GraphTraversal_2511531002 {
 			dfsHelper_1002(neighbor_1002, visited_1002);
 	}
 	
-	// DFS Iteratif
+	// BFS Iteratif
 	public void bfs_1002(String start_1002) {
 		Set<String> visited_1002 = new HashSet<>();
 		Queue<String> queue_1002 = new LinkedList<>();
